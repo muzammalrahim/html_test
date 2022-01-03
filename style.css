@@ -1,0 +1,107 @@
+body{
+    /*padding-top: 27px;*/
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 150%;
+
+}
+
+.header{
+    background-image: url("images/groups head.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 35px;
+}
+.wrap{
+    margin: 40px 0;
+}
+.wrap .container{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.wrap h3{
+    border-bottom: 1px solid #6D6D6D;
+}
+.wrap .container .row .col-sm-8,
+.wrap .container .row .col-sm-2
+{
+   padding: 0;
+}
+.gray-200{
+    color:#6D6D6D;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22.5px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+.Heading{
+    padding: 40px;
+}
+.row.content{
+    padding: 40px 40px 40px 40px;
+
+}
+span.sub-heading {
+    color: #2C63AE;
+    font-size: 15px;
+    font-weight: 400;
+}
+.main-content{
+    font-size: 13px;
+    width: 80%;
+}
+
+.owner{
+    font-size: 13px;
+}
+.owner span{
+    color: #2C63AE;
+    font-size: 13px;
+}
+.gray{
+    color: #000005;
+    font-size: 13px;
+}
+.empty {
+    height: 20px;
+}
+button.btn.btn-success.custom {
+    border-radius: 50px;
+    width: 90%;
+    background-color: #4EAC7F;
+    border-color: #4EAC7F;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+
+}
+.leave{
+    color: #6d6d6d;
+    font-size: 16px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.leave .far{
+    margin-right: 5px;
+}
+.wrap .container .row.content {
+    padding-top: 0;
+}
+.fa-lock.locked{
+    color: #000;
+    font-size: 17px;
+    margin-right: 5px;
+}
+.leave .fa-plus-circle{
+    padding-right: 5px;
+    margin-top: 50px;
+}
